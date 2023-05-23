@@ -16,8 +16,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: thelearncast.com
-  # baseUrl: /learncast-uptime
+  #cname: thelearncast.com
+  baseUrl: /learncast-uptime
   logoUrl: https://raw.githubusercontent.com/LearnCast/core/main/logo/logo-square-no-tagline.svg
   name: Learncast Uptime
   introTitle: "**Learncast** is the open-source uptime monitor and status page, powered entirely by GitHub."
@@ -25,7 +25,7 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
+    - title: Learncast Uptime
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
